@@ -24,3 +24,20 @@
 
 
 ## Input Data to XML schema - **input_XML.ipynb**
+
+### **Prerequisites**
+  - Python 3.x
+  - xml.etree.ElementTree
+
+### **Explanation of the Script**
+ - **Loading the Existing XML File**
+   - The script loads the XML file specified by input_file and parses it into an XML tree structure.
+ - **Adding Data to Elements**
+   - The add_data_to_element function recursively traverses the XML tree and adds data to elements based on the provided dictionary.
+ - **Removing Empty Elements**
+   - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
+ - **Writing the Modified XML to a File**
+   - The modified XML tree is written to a new file specified by output_file, with an XML declaration at the top.
+
+
+
