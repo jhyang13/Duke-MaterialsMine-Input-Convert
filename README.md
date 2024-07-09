@@ -19,5 +19,6 @@
     - The script defines a recursive function generate_element_structure to create the XML structure based on the XSD definitions.
     - It gets the root element name from the XSD schema and generates the XML structure starting from this root element.
   - **Writing the Generated XML to a File**
-    - The generated XML structure is converted to a string and written to a file specified by output_file (**output.xml**).
+    - The generated XML structure is converted to a string and written to a file specified by output_file (**XML-Schema.xml**).
 
+## Input Data to XML schema - **input_XML.ipynb**
