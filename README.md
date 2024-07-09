@@ -42,7 +42,7 @@
  - **Removing Empty Elements**
    - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
  - **Writing the Modified XML to a File**
-   - The modified XML tree is written to a new file specified by output_file, with an XML declaration at the top.
+   - The modified XML tree is written to a new file specified by output_file (**XML-Input.xml**), with an XML declaration at the top.
 
 
 
