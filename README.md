@@ -37,15 +37,8 @@
    - **Specify the data to be added**
      - **'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms** (Pin Tolu)
      - This is an example:
-          data = {
-              'Title': 'Sample_test',
-              'Author': 'Sample_test',
-              'Citation Type': 'Sample_test',
-              'Publication Year': 'Sample_test',
-              'Matrix': {
-                  'ChemicalName': 'Sample_test'
-              }
-          }
+![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/6980e95f-155d-4a67-b57c-a3eb791d1ed5)
+
  - **Removing Empty Elements**
    - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
  - **Writing the Modified XML to a File**
