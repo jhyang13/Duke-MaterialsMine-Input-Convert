@@ -20,5 +20,7 @@
     - It gets the root element name from the XSD schema and generates the XML structure starting from this root element.
   - **Writing the Generated XML to a File**
     - The generated XML structure is converted to a string and written to a file specified by output_file (**XML-Schema.xml**).
+      ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/ac69894e-1122-4e02-9062-f85e6d8c9c5e)
+
 
 ## Input Data to XML schema - **input_XML.ipynb**
