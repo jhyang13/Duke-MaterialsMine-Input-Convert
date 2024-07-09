@@ -31,9 +31,21 @@
 
 ### **Explanation of the Script**
  - **Loading the Existing XML File**
-   - The script loads the XML file specified by input_file and parses it into an XML tree structure.
+   - The script loads the XML file specified by input_file (**XML-Schema.xml**) and parses it into an XML tree structure.
  - **Adding Data to Elements**
    - The add_data_to_element function recursively traverses the XML tree and adds data to elements based on the provided dictionary.
+   - # Specify the data to be added
+     - 'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms
+     - This is an example:
+          data = {
+              'Title': 'Sample_test',
+              'Author': 'Sample_test',
+              'Citation Type': 'Sample_test',
+              'Publication Year': 'Sample_test',
+              'Matrix': {
+                  'ChemicalName': 'Sample_test'
+              }
+          }
  - **Removing Empty Elements**
    - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
  - **Writing the Modified XML to a File**
