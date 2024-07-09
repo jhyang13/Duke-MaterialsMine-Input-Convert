@@ -35,7 +35,7 @@
  - **Adding Data to Elements**
    - The add_data_to_element function recursively traverses the XML tree and adds data to elements based on the provided dictionary.
    - **Specify the data to be added**
-     - 'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms
+     - **'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms** (Pin Tolu)
      - This is an example:
           data = {
               'Title': 'Sample_test',
