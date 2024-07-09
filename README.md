@@ -43,6 +43,8 @@
    - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
  - **Writing the Modified XML to a File**
    - The modified XML tree is written to a new file specified by output_file (**XML-Input.xml**), with an XML declaration at the top.
+     ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/1ff7e212-c634-4f74-a42a-d9255d031574)
+
 
 
 
