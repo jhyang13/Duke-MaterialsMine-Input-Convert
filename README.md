@@ -1,6 +1,6 @@
 # MaterialsMine_XMLconvert
 
-### Convert XSD to XML 
+## Convert XSD to XML 
 
 **create_XML.ipynb**
 
