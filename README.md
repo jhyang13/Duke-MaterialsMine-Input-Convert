@@ -35,8 +35,8 @@
    - The script loads the XML file specified by input_file (**XML-Schema.xml**) and parses it into an XML tree structure.
  - **Adding Data to Elements**
    - The add_data_to_element function recursively traverses the XML tree and adds data to elements based on the provided dictionary.
-   - **Specify the data to be added**
-     - **'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms** (Pin Tolu)
+   - Specify the data to be added
+     - **'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms** (Pin Tolu and Anlan)
      - This is an example:
 ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/6980e95f-155d-4a67-b57c-a3eb791d1ed5)
  - **Removing Empty Elements**
