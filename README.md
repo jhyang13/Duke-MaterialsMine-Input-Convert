@@ -78,19 +78,16 @@
 ![image](https://github.com/user-attachments/assets/1de837e6-250e-42d6-89c7-9b6026b3c488)
 
 
-### **Explanation of the Script - input_XML.ipynb**
- - **Loading the Existing XML File**
-   - The script loads the XML file specified by input_file (**XML-Schema.xml**) and parses it into an XML tree structure.
- - **Adding Data to Elements**
-   - The add_data_to_element function recursively traverses the XML tree and adds data to elements based on the provided dictionary.
-   - **Specify the data to be added**
-     - **'Title', 'Author', 'Citation Type' and 'Publication Year' are required terms** (Pin Tolu)
-     - This is an example:
-     - ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/6980e95f-155d-4a67-b57c-a3eb791d1ed5)
- - **Removing Empty Elements**
-   - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
- - **Writing the Modified XML to a File**
-   - The modified XML tree is written to a new file specified by output_file (**XML-Input.xml**), with an XML declaration at the top.
-   - ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/1ff7e212-c634-4f74-a42a-d9255d031574)
+### **Explanation of the Script - input_JSON.ipynb**
+ - **Loading the JSON File**
+   - The script loads the JSON file specified by input_file (**JSON-Schema.xml**) using the json.load function.
+ - **Defining the Function to Remove Empty Fields**
+   -  The remove_empty_fields function recursively removes empty fields from the dictionary. It handles dictionaries, lists, and basic data types to ensure that no empty fields are left in the resulting JSON data.
+  - **Defining the Function to Add Specified Data**
+    - The add_data_to_dict function adds specified data to the dictionary. It ensures that nested dictionaries are properly merged and that the new data is integrated into the existing JSON structure.
+  - **Specifying the Data to be Added**
+    - A dictionary named data contains the information to be added to the existing JSON data. This data includes citation information and material details.
+    - This is an example:
+![image](https://github.com/user-attachments/assets/3b97efcb-8733-4a9d-8e7f-02d191e33694)
 
 
