@@ -1,6 +1,6 @@
 # MaterialsMine_XMLconvert
 
-## Convert XSD to XML
+## **XSD_to_XML** - Convert XSD to XML
   - **create_XML.ipynb**
   - **input_XML.ipynb**
 
@@ -9,7 +9,7 @@
   - xmlschema library
       - pip install xmlschema
   
-### **Explanation of the Script**
+### **Explanation of the Script - create_XML.ipynb**
   - **Reading and Modifying the XSD File**
     - The script reads the content of the XSD file specified by xsd_file_path (**XSD-Schema.xsd**).
     - It uses a regular expression to modify element names that do not conform to XML naming rules (element names starting with a digit).
