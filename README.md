@@ -1,6 +1,8 @@
 # MaterialsMine_XMLconvert
 
-## Convert XSD to XML - **create_XML.ipynb**
+## Convert XSD to XML
+  - **create_XML.ipynb**
+  - **input_XML.ipynb**
 
 ### **Prerequisites**
   - Python 3.x
