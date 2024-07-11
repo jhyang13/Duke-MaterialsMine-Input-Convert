@@ -46,6 +46,11 @@
 
 ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/1ff7e212-c634-4f74-a42a-d9255d031574)
 
+### Usage Example
+- To use these scripts, make sure to update the input_file and output_file paths to your desired file locations.
+- Run the **create_XML.ipynb** script to perform the conversion from XSD to XML and save the output to the specified file.
+- Run the **input_XML.ipynb** script to add specified data to the XML file, remove empty fields, and save the cleaned XML data to the specified file.
+
 
 
 ## **XML_to_JSON** - Convert XML to JSON
@@ -97,5 +102,11 @@
     - The cleaned JSON data is written to a file specified by output_file (**JSON-Input.json**) using a file writer (with open statement). The file is saved in the specified path.
 
 ![image](https://github.com/user-attachments/assets/3b97efcb-8733-4a9d-8e7f-02d191e33694)
+
+### Usage Example
+- To use these scripts, make sure to update the input_file and output_file paths to your desired file locations.
+- Run the **create_JSON.ipynb** script to perform the conversion from XML to JSON and save the output to the specified file.
+- Run the **input_JSON.ipynb** script to add specified data to the JSON file, remove empty fields, and save the cleaned JSON data to the specified file.
+
 
 
