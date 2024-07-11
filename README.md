@@ -61,7 +61,7 @@
   - import xmlschema
   - import json
 
-### **Explanation of the Script - create_XML.ipynb**
+### **Explanation of the Script - create_JSON.ipynb**
   - **Reading and Modifying the XSD File**
     - The script reads the content of the XSD file specified by xsd_file_path (**XSD-Schema.xsd**).
     - It uses a regular expression to modify element names that do not conform to XML naming rules (element names starting with a digit).
