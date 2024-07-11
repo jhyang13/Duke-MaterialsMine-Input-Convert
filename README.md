@@ -88,6 +88,14 @@
   - **Specifying the Data to be Added**
     - A dictionary named data contains the information to be added to the existing JSON data. This data includes citation information and material details.
     - This is an example:
+![image](https://github.com/user-attachments/assets/a985edba-f565-43db-9aea-91252ff2b5e2)
+  - **Adding the Specified Data to the JSON Data**
+    - The add_data_to_dict function is used to integrate the specified data into the existing JSON data.
+  - **Removing Empty Fields from the JSON Data**
+    - The remove_empty_fields function is called to clean the JSON data by removing any empty fields.
+  - **Writing the Cleaned JSON Data to a File**
+    - The cleaned JSON data is written to a file specified by output_file (**JSON-Input.json**) using a file writer (with open statement). The file is saved in the specified path.
+
 ![image](https://github.com/user-attachments/assets/3b97efcb-8733-4a9d-8e7f-02d191e33694)
 
 
