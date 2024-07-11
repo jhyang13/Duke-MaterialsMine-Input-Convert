@@ -27,7 +27,8 @@
     - It gets the root element name from the XSD schema and generates the XML structure starting from this root element.
   - **Writing the Generated XML to a File**
     - The generated XML structure is converted to a string and written to a file specified by output_file (**XML-Schema.xml**).
-    - ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/ac69894e-1122-4e02-9062-f85e6d8c9c5e)
+
+![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/ac69894e-1122-4e02-9062-f85e6d8c9c5e)
 
 ### **Explanation of the Script - input_XML.ipynb**
  - **Loading the Existing XML File**
@@ -42,7 +43,9 @@
    - The remove_empty_elements function recursively traverses the XML tree and removes elements that do not contain any text or child elements.
  - **Writing the Modified XML to a File**
    - The modified XML tree is written to a new file specified by output_file (**XML-Input.xml**), with an XML declaration at the top.
-   - ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/1ff7e212-c634-4f74-a42a-d9255d031574)
+
+![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/1ff7e212-c634-4f74-a42a-d9255d031574)
+
 
 
 ## **XML_to_JSON** - Convert XML to JSON
@@ -62,19 +65,18 @@
   - import json
 
 ### **Explanation of the Script - create_JSON.ipynb**
-  - **Reading and Modifying the XSD File**
-    - The script reads the content of the XSD file specified by xsd_file_path (**XSD-Schema.xsd**).
-    - It uses a regular expression to modify element names that do not conform to XML naming rules (element names starting with a digit).
-  - **Writing the Modified XSD File**
-    - The modified XSD content is written to a new file specified by modified_xsd_file_path (**Modified-XSD-Schema.xsd**).
-  - **Loading the Modified XSD Schema**
-    - The modified XSD file is loaded using the xmlschema library.
-  - **Generating the XML Structure**
-    - The script defines a recursive function generate_element_structure to create the XML structure based on the XSD definitions.
-    - It gets the root element name from the XSD schema and generates the XML structure starting from this root element.
-  - **Writing the Generated XML to a File**
-    - The generated XML structure is converted to a string and written to a file specified by output_file (**XML-Schema.xml**).
-    - ![image](https://github.com/jhyang13/MaterialsMine_XMLconvert/assets/98197333/ac69894e-1122-4e02-9062-f85e6d8c9c5e)
+  - **Loading the XML File**
+      - The script loads the XML file specified by input_file (**XML-Schema.xml**) using ET.parse and gets the root element of the XML tree.
+  - **Converting XML to a Dictionary**
+    - The root element of the XML tree is passed to the xml_to_dict function to convert the entire XML structure into a dictionary format.
+    - The xml_to_dict function recursively converts XML elements to a dictionary. If an element has no children, it returns the element's text content. Otherwise, it iterates through the children and constructs a dictionary representing the XML structure.
+  - **Converting the Dictionary to JSON Format**
+    - The resulting dictionary is then converted to JSON format using json.dumps with an indentation level of 4 for better readability.
+  - **Writing the JSON Data to a File**
+    - The JSON data is written to a file specified by output_file (**JSON-Schema.xml**) using a file writer (with open statement). The file is saved in the specified path.
+
+![image](https://github.com/user-attachments/assets/1de837e6-250e-42d6-89c7-9b6026b3c488)
+
 
 ### **Explanation of the Script - input_XML.ipynb**
  - **Loading the Existing XML File**
