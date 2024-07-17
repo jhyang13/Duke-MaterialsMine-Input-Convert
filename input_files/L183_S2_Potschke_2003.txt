@@ -1,0 +1,21 @@
+
+CitationType: research article
+DOI: 10.1016/j.polymer.2003.10.003
+Publication: Polymer
+Title: Morphology and electrical resistivity of melt mixed blends of polyethylene and carbon nanotube filled polycarbonate
+Author: Pötschke, Petra
+Author: Bhattacharyya, Arup R.
+Author: Janke, Andreas
+Keyword: Blends
+Keyword: Multiwalled carbon nanotube composites
+Keyword: Electrical resistivity
+PublicationYear: 2003
+Volume: 44
+URL: http://www.sciencedirect.com/science/article/pii/S0032386103009054
+Language: English
+Matrix_ChemicalName: polyethylene
+Matrix_Abbreviation: PE
+Matrix_ConstitutionalUnit: C2H4
+Matrix_PlasticType: thermoplastic
+Matrix_PolymerType: homopolymer
+Matrix_TradeName: Lupolen 4261A    
