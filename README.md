@@ -57,3 +57,24 @@
 - **Converting XML Element Tree to String**
 - **Writing the XML Data to a File**
     - The XML data is written to a file specified by output_file (`JSON-to-XML-Schema.xml`).
+
+
+
+## **Input_to_XML** - Convert input file YAML type to XML
+  - `InputtoXML_truncate_v3.ipynb`
+
+### **Prerequisites**
+  - pyyaml library
+      - pip install pyyaml
+  - xmlschema library
+      - pip install xmlschema
+
+### **Explanation of the Script - JSONtoXML_convert.ipynb**
+- **Loading the JSON File**
+    - The script loads the JSON file specified by input_file (`JSON-Schema.json`).
+- **Recursively Convert Dictionary to XML Elements**
+    - The script uses the dict_to_xml function to recursively convert the JSON dictionary to XML elements.
+- **Creating the Root Element**
+- **Converting XML Element Tree to String**
+- **Writing the XML Data to a File**
+    - The XML data is written to a file specified by output_file (`JSON-to-XML-Schema.xml`).
