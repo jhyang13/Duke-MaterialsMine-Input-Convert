@@ -1,0 +1,53 @@
+ID: L183_S4_Potschke_2003
+
+DATA_SOURCE/Citation/CommonFields/CitationType: research article
+DATA_SOURCE/Citation/CommonFields/Publication: Polymer
+DATA_SOURCE/Citation/CommonFields/Title: Morphology and electrical resistivity of melt mixed blends of polyethylene and carbon nanotube filled polycarbonate
+DATA_SOURCE/Citation/CommonFields/Author: Potschke, Petra
+DATA_SOURCE/Citation/CommonFields/Author: Bhattacharyya, Arup R.
+DATA_SOURCE/Citation/CommonFields/Author: Janke, Andreas
+DATA_SOURCE/Citation/CommonFields/Keyword: Blends
+DATA_SOURCE/Citation/CommonFields/Keyword: Multiwalled carbon nanotube composites
+DATA_SOURCE/Citation/CommonFields/Keyword: Electrical resistivity
+DATA_SOURCE/Citation/CommonFields/Publisher: Elsevier
+DATA_SOURCE/Citation/CommonFields/PublicationYear: 2003
+DATA_SOURCE/Citation/CommonFields/DOI: 10.1016/j.polymer.2003.10.003
+DATA_SOURCE/Citation/CommonFields/Volume: 44
+DATA_SOURCE/Citation/CommonFields/URL: http://www.sciencedirect.com/science/article/pii/S0032386103009054
+DATA_SOURCE/Citation/CommonFields/Language: English
+
+MATERIALS/Matrix/MatrixComponent/ChemicalName: polyethylene
+MATERIALS/Matrix/MatrixComponent/Abbreviation: PE
+MATERIALS/Matrix/MatrixComponent/ConstitutionalUnit: C2H4
+MATERIALS/Matrix/MatrixComponent/PlasticType: thermoplastic
+MATERIALS/Matrix/MatrixComponent/PolymerType: homopolymer
+MATERIALS/Matrix/MatrixComponent/ManufacturerName: BASF AG, Germany
+MATERIALS/Matrix/MatrixComponent/TradeName: Lupolen 4261A
+
+MATERIALS/Filler/FillerComponent/ChemicalName: polycarbonate
+MATERIALS/Filler/FillerComponent/Abbreviation: PC
+MATERIALS/Filler/FillerComponent/ManufacturerName: Mitsubishi Engineering Plastics
+MATERIALS/Filler/FillerComponent/TradeName: Iupilon E-2000
+
+MATERIALS/Filler/FillerComponent/ChemicalName: multi-wall carbon nanotube
+MATERIALS/Filler/FillerComponent/Abbreviation: MWNT
+MATERIALS/Filler/FillerComponent/ManufacturerOrSourceName: Hyperion Catalysis International, Inc.
+MATERIALS/Filler/FillerComponent/FillerComponentComposition/mass: 0.02
+
+MATERIALS/Filler/FillerProcessing/ChooseParameter/Extrusion/TwinScrewExtrusion/Extruder: Haake
+MATERIALS/Filler/FillerProcessing/ChooseParameter/Extrusion/TwinScrewExtrusion/RotationMode: CoRotation
+MATERIALS/Filler/FillerProcessing/ChooseParameter/Extrusion/TwinScrewExtrusion/ScrewDiameter/value: 30
+MATERIALS/Filler/FillerProcessing/ChooseParameter/Extrusion/TwinScrewExtrusion/ScrewDiameter/unit: mm
+MATERIALS/Filler/FillerProcessing/ChooseParameter/Extrusion/TwinScrewExtrusion/D_L_ratio: 10
+MATERIALS/Filler/illerComposition/volume: 0.2
+
+PROCESSING/MeltMixing/ChooseParameter/Mixing/Mixer: DACA Micro Compounder
+PROCESSING/MeltMixing/ChooseParameter/Mixing/RPM/value: 50
+PROCESSING/MeltMixing/ChooseParameter/Mixing/Time/value: 5
+PROCESSING/MeltMixing/ChooseParameter/Mixing/Time/unit: minutes
+PROCESSING/MeltMixing/ChooseParameter/Mixing/Temperature/value: 260
+PROCESSING/MeltMixing/ChooseParameter/Mixing/Temperature/unit: Celsius
+
+
+
+
