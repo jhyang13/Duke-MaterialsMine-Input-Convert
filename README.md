@@ -55,4 +55,13 @@
       - pip install xmlschema
 
 ### **Explanation of the Script - JSONtoXML_convert.ipynb**
-
+- **Loading the JSON File**
+    - The script loads the JSON file specified by input_file (`JSON-Schema.json`).
+- **Recursively Convert Dictionary to XML Elements**
+    - The script uses the `dict_to_xml` function to recursively convert the JSON dictionary to XML elements.
+- **Creating the Root Element**
+    - The script uses the `create_root_element` function to create the root XML element and append all child elements.
+- **Converting XML Element Tree to String**
+    - The XML element tree is converted to a string using `ET.tostring`.
+- **Writing the XML Data to a File**
+    - The XML data is written to a file specified by `output_file` (`JSON-to-XML-Schema.xml`).
