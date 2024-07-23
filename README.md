@@ -60,7 +60,7 @@
 
 
 
-## **Input_to_XML** - Convert input file YAML type to XML
+## **Input_to_XML** - Convert Input file in YAML type to XML
   - `InputtoXML_truncate_v3.ipynb`
 
 ### **Prerequisites**
@@ -69,12 +69,19 @@
   - xmlschema library
       - pip install xmlschema
 
-### **Explanation of the Script - JSONtoXML_convert.ipynb**
-- **Loading the JSON File**
-    - The script loads the JSON file specified by input_file (`JSON-Schema.json`).
-- **Recursively Convert Dictionary to XML Elements**
-    - The script uses the dict_to_xml function to recursively convert the JSON dictionary to XML elements.
-- **Creating the Root Element**
-- **Converting XML Element Tree to String**
+### **Explanation of the Script - InputtoXML_truncate_v3.ipynb**
+- **Loading the YAML File**
+  - The script loads the YAML file specified by yaml_file_path (`input_files/L183_S4_Potschke_2003.yaml`).
+- **Converting YAML to a Dictionary**
+  - The YAML file is parsed into a dictionary using the parse_yaml_to_dict function.
+- **Recursively Adding Data to XML Elements**
+  - The script uses the add_data_to_element function to recursively add data from the dictionary to XML elements.
+- **Removing Empty XML Elements**
+  - The script uses the remove_empty_elements function to recursively remove empty elements from the XML tree.
 - **Writing the XML Data to a File**
-    - The XML data is written to a file specified by output_file (`JSON-to-XML-Schema.xml`).
+  - The XML data is written to a file specified by xml_output_path (`output_files/L183_S4_Potschke_2003_output.xml`).
+
+
+
+
+  
