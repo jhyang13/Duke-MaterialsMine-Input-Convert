@@ -1,18 +1,11 @@
 # MaterialsMine_XMLconvert
 
-## **XSD_to_XML** - Convert XSD to XML
-  - **create_XML.ipynb**
-  - **input_XML.ipynb**
+## **XSD_to_XML** - Convert XSD Schema to XML Schema
+  - **XSDtoXML_convert.ipynb**
 
 ### **Prerequisites**
-  - Python 3.x
   - xmlschema library
       - pip install xmlschema
-
-### **Import Dependencies**
-  - import re
-  - import xml.etree.ElementTree as ET
-  - import xmlschema
 
 ### **Explanation of the Script - create_XML.ipynb**
   - **Reading and Modifying the XSD File**
