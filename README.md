@@ -1,4 +1,4 @@
-# MaterialsMine_XMLconvert
+# MaterialsMine_Inputconvert
 
 ## **XSD_to_XML** - Convert XSD Schema to XML Schema
   - `XSDtoXML_convert.ipynb`
