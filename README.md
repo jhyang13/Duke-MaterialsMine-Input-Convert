@@ -18,7 +18,7 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
   - os
   - re
 
-### Script Configuration: InputtoXML_ExcludeFEA.ipynb
+## Script Configuration: InputtoXML_ExcludeFEA.ipynb
 - **Step 1: Change the Input File Header Names**
 
     The Excel file should have headers that match the corresponding tag names in the XML schema. If a value and unit are needed, the header should be renamed accordingly, e.g., `TensileModulus/unit`, `Other_Processing/ChooseParameter/Drying-Evaporation/Temperature/value`.
@@ -27,6 +27,6 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
 
   The script reads the Excel file and generates individual XML files based on the provided XML schema. Two specific elements, `SIMULATION-FEA` and `MATERIALPROPERTIES-FEA`, are skipped during the conversion process.
 
-### Output
+## Output
 For each row in the Excel file, the script generates an XML file named using the ID from that row and saves it to the specified output directory.
   
