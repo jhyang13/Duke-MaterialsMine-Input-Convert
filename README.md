@@ -17,5 +17,12 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
   - os
   - re
 
+### Script Configuration
+- Step 1: Change the Input File Header Names
 
+    The Excel file should have headers that match the corresponding tag names in the XML schema. If a value and unit are needed, the header should be renamed accordingly, e.g., TensileModulus/unit, Other_Processing/ChooseParameter/Drying-Evaporation/Temperature/value.
+
+- Step 2: Convert the Input File into XML Files
+
+  The script reads the Excel file and generates individual XML files based on the provided XML schema. Two specific elements, SIMULATION-FEA and MATERIALPROPERTIES-FEA, are skipped during the conversion process.
   
