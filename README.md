@@ -30,3 +30,5 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
 ## Output
 For each row in the Excel file, the script generates an XML file named using the ID from that row and saves it to the specified output directory.
   
+## Notes
+Ensure that the Excel headers match the expected XML tags. The script uses the header names to populate the corresponding XML elements.
