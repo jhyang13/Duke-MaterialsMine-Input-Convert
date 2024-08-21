@@ -1,5 +1,9 @@
 # MaterialsMine_Inputconvert
 
+**XSD Schema:** https://qa.materialsmine.org/portal/view-schema
+
+**API Docs:** https://materialsmine.org/api/api-docs/
+
 ## **XSD_to_XML** - Convert XSD Schema to XML Schema
   - `XSDtoXML_convert.ipynb`
 
