@@ -27,7 +27,7 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
 
   The script reads the Excel file and generates individual XML files based on the provided XML schema. Two specific elements, `SIMULATION-FEA` and `MATERIALPROPERTIES-FEA`, are skipped during the conversion process.
 
-## Output
+## Output Files
 For each row in the Excel file, the script generates an XML file named using the ID from that row and saves it to the specified output directory.
   
 ## Notes
