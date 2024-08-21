@@ -7,6 +7,7 @@ The script is particularly tailored for use with the MaterialsMine platform, fac
 ## Useful Links:
 
 **XSD Schema:** https://qa.materialsmine.org/portal/view-schema
+
 **API Docs:** https://materialsmine.org/api/api-docs/
 
 ## Prerequisites
