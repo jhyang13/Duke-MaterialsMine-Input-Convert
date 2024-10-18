@@ -1,0 +1,4333 @@
+PolymerNanocomposite:
+  ID: {}
+  Control_ID: {}
+  DATA_SOURCE:
+    Citation:
+      CommonFields:
+        YourName: {}
+        YourEmail: {}
+        Origin: {}
+        CitationType: {}
+        PublicationType: {}
+        DOI: {}
+        Publication: {}
+        Title: {}
+        Author:
+          Author: {}
+        Keyword:
+          Keyword: {}
+        PublicationYear: {}
+        Volume: {}
+        Issue: {}
+        URL: {}
+        Language: {}
+        Location: {}
+        DateOfCitation: {}
+        LaboratoryDataInfo:
+          DateOfSampleMade: {}
+          DateOfDataMeasurement: {}
+          RelatedDOI: {}
+          isFEA: {}
+        ComputationalDataInfo:
+          DateOfSimulationRun: {}
+          DataOwner: {}
+          RelatedDOI: {}
+          NumberOfCPUs: {}
+          ComputationalTime: {}
+  MATERIALS:
+    Matrix:
+      MatrixComponent:
+        ChemicalName: {}
+        PubChemRef: {}
+        Abbreviation: {}
+        ConstitutionalUnit: {}
+        PlasticType: {}
+        PolymerClass: {}
+        PolymerType: {}
+        ManufacturerOrSourceName: {}
+        TradeName: {}
+        MolecularWeight:
+          description: {}
+          value: {}
+          unit: {}
+        Polydispersity: {}
+        Tacticity: {}
+        Density:
+          value: {}
+          unit: {}
+        Viscosity:
+          value: {}
+          unit: {}
+        Hardener: {}
+        Additive:
+          description: {}
+          value: {}
+          unit: {}
+        MatrixComponentComposition:
+          Constituent: {}
+          Fraction:
+            mass: {}
+            volume: {}
+        CrosslinkDensity:
+          description: {}
+          value: {}
+    Filler:
+      FillerComponent:
+        Description: {}
+        ChemicalName: {}
+        PubChemRef: {}
+        Abbreviation: {}
+        ManufacturerOrSourceName: {}
+        TradeName: {}
+        Density:
+          description: {}
+          value: {}
+          unit: {}
+        CrystalPhase: {}
+        SphericalParticleDiameter:
+          description: {}
+          value: {}
+          unit: {}
+          StandardDeviation: {}
+        SurfaceArea:
+          specific:
+            description: {}
+            value: {}
+            unit: {}
+          total:
+            description: {}
+            value: {}
+            unit: {}
+        ParticleAspectRatio:
+          description: {}
+          value: {}
+        NonSphericalShape:
+          Width:
+            description: {}
+            value: {}
+            unit: {}
+          Length:
+            description: {}
+            value: {}
+            unit: {}
+          Depth:
+            description: {}
+            value: {}
+            unit: {}
+        FillerComponentComposition:
+          mass: {}
+          volume: {}
+        FillerComponentInComposite:
+          mass: {}
+          volume: {}
+        ParticleSurfaceTreatment:
+          ChemicalName: {}
+          Abbreviation: {}
+          ConstitutionalUnit: {}
+          ManufacturerOrSourceName: {}
+          TradeName: {}
+          Density:
+            description: {}
+            value: {}
+            unit: {}
+          GraftDensity:
+            description: {}
+            value: {}
+            unit: {}
+          MolecularWeight:
+            description: {}
+            value: {}
+            unit: {}
+          PST_Composition:
+            Constituent: {}
+            Fraction:
+              mass: {}
+              volume: {}
+          SurfaceChemistryProcessing:
+            ChooseParameter:
+              Mixing:
+                Description: {}
+                Mixer:
+                  value: {}
+                MixingMethod: {}
+                RPM:
+                  value: {}
+                  unit: {}
+                Time:
+                  value: {}
+                  unit: {}
+                Temperature:
+                  value: {}
+                  unit: {}
+                ChemicalUsed:
+                  description: {}
+                  value: {}
+                  unit: {}
+              Cooling:
+                Description: {}
+                Temperature:
+                  value: {}
+                  unit: {}
+                Time:
+                  value: {}
+                  unit: {}
+                Pressure:
+                  value: {}
+                  unit: {}
+                AmbientCondition: {}
+              Drying-Evaporation:
+                Description: {}
+                Temperature:
+                  value: {}
+                  unit: {}
+                Time:
+                  value: {}
+                  unit: {}
+                Pressure:
+                  value: {}
+                  unit: {}
+                AmbientCondition: {}
+              Solvent:
+                SolventName: {}
+                SolventAmount:
+                  value: {}
+                  unit: {}
+              Centrifugation: {}
+              Other: {}
+  PROCESSING:
+    ExperimentalProcedure: {}
+    MeltMixing:
+      ChooseParameter:
+        Mixing:
+          Description: {}
+          Mixer: {}
+          MixingMethod: {}
+          RPM:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Temperature:
+            value: {}
+            unit: {}
+          ChemicalUsed:
+            description: {}
+            value: {}
+            unit: {}
+        Drying-Evaporation:
+          Description: {}
+          Temperature:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Pressure:
+            value: {}
+            unit: {}
+          AmbientCondition: {}
+        Other: {}
+        Extrusion:
+          SingleScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            InnerBarrelDiameter:
+              value: {}
+              unit: {}
+            ScrewLength:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            RadialFlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            ChannelDepth:
+              value: {}
+              unit: {}
+            ScrewLead:
+              value: {}
+              unit: {}
+            NumberOfChannelsPerScrew:
+              value: {}
+            ScrewChannelWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+              unit: {}
+            BarrelTemperature:
+              value: {}
+              unit: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+          TwinScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            RotationMode:
+              value: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            ScrewChannelDiameter:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            FlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+    SolutionProcessing:
+      ChooseParameter:
+        Mixing:
+          Description: {}
+          Mixer: {}
+          MixingMethod: {}
+          RPM:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Temperature:
+            value: {}
+            unit: {}
+          ChemicalUsed:
+            description: {}
+            value: {}
+            unit: {}
+        Drying-Evaporation:
+          Description: {}
+          Temperature:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Pressure:
+            value: {}
+            unit: {}
+          AmbientCondition: {}
+        Other: {}
+        Extrusion:
+          SingleScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            InnerBarrelDiameter:
+              value: {}
+              unit: {}
+            ScrewLength:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            RadialFlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            ChannelDepth:
+              value: {}
+              unit: {}
+            ScrewLead:
+              value: {}
+              unit: {}
+            NumberOfChannelsPerScrew:
+              value: {}
+            ScrewChannelWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+              unit: {}
+            BarrelTemperature:
+              value: {}
+              unit: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+          TwinScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            RotationMode:
+              value: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            ScrewChannelDiameter:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            FlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+    In-SituPolymerization:
+      ChooseParameter:
+        Mixing:
+          Description: {}
+          Mixer: {}
+          MixingMethod: {}
+          RPM:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Temperature:
+            value: {}
+            unit: {}
+          ChemicalUsed:
+            description: {}
+            value: {}
+            unit: {}
+        Drying-Evaporation:
+          Description: {}
+          Temperature:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Pressure:
+            value: {}
+            unit: {}
+          AmbientCondition: {}
+        Other: {}
+        Extrusion:
+          SingleScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            InnerBarrelDiameter:
+              value: {}
+              unit: {}
+            ScrewLength:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            RadialFlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            ChannelDepth:
+              value: {}
+              unit: {}
+            ScrewLead:
+              value: {}
+              unit: {}
+            NumberOfChannelsPerScrew:
+              value: {}
+            ScrewChannelWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+              unit: {}
+            BarrelTemperature:
+              value: {}
+              unit: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+          TwinScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            RotationMode:
+              value: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            ScrewChannelDiameter:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            FlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+    Other_Processing:
+      ChooseParameter:
+        Mixing:
+          Description: {}
+          Mixer: {}
+          MixingMethod: {}
+          RPM:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Temperature:
+            value: {}
+            unit: {}
+          ChemicalUsed:
+            description: {}
+            value: {}
+            unit: {}
+        Drying-Evaporation:
+          Description: {}
+          Temperature:
+            value: {}
+            unit: {}
+          Time:
+            value: {}
+            unit: {}
+          Pressure:
+            value: {}
+            unit: {}
+          AmbientCondition: {}
+        Other: {}
+        Extrusion:
+          SingleScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            InnerBarrelDiameter:
+              value: {}
+              unit: {}
+            ScrewLength:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            RadialFlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            ChannelDepth:
+              value: {}
+              unit: {}
+            ScrewLead:
+              value: {}
+              unit: {}
+            NumberOfChannelsPerScrew:
+              value: {}
+            ScrewChannelWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+              unit: {}
+            BarrelTemperature:
+              value: {}
+              unit: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+          TwinScrewExtrusion:
+            Extruder: {}
+            ResidenceTime:
+              value: {}
+              unit: {}
+            ExtrusionTemperature:
+              value: {}
+              unit: {}
+            RotationMode:
+              value: {}
+            ScrewDiameter:
+              value: {}
+              unit: {}
+            ScrewChannelDiameter:
+              value: {}
+              unit: {}
+            D_L_ratio: {}
+            FlightClearance:
+              value: {}
+              unit: {}
+            FlightWidth:
+              value: {}
+              unit: {}
+            HeatingZone:
+              heatingZoneNumber:
+                value: {}
+              lengthOfHeatingZone:
+                value: {}
+                unit: {}
+              barrelTemperature:
+                value: {}
+                unit: {}
+            DieDiameter:
+              value: {}
+              unit: {}
+            RotationSpeed:
+              value: {}
+            Output:
+              MeltTemperature:
+                value: {}
+                unit: {}
+              PressureAtDie:
+                value: {}
+                unit: {}
+              Torque:
+                value: {}
+                unit: {}
+              Amperage:
+                value: {}
+                unit: {}
+              Voltage:
+                value: {}
+                unit: {}
+              Power:
+                value: {}
+                unit: {}
+              ThroughPut:
+                value: {}
+                unit: {}
+              ResidenceTime:
+                value: {}
+                unit: {}
+  CHARACTERIZATION:
+    Microscopy:
+      Transmission_Electron_Microscopy:
+        EquipmentUsed: {}
+        Description: {}
+        Magnification:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        AcceleratingVoltage:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        EmissionCurrent:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        WorkingDistance:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+        ExposureTime:
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Scanning_Electron_Microscopy:
+        EquipmenUsed: {}
+        Description: {}
+        Magnification:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        AcceleratingVoltage:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        EmissionCurrent:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        WorkingDistance:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+        ExposureTime:
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Atomic_Force_Microscopy:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      OpticalMicroscopy:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+    Spectroscopy:
+      Fourier_Transform_Infrared_Spectroscopy:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Dielectric_and_Impedance_Spectroscopy_Analysis:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Raman_Spectroscopy:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      XRay_Photoelectron_Spectroscopy:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Nuclear_Magnetic_Resonance:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+    Thermochemical:
+      Differential_Scanning_Calorimetry:
+        Equipment: {}
+        Description: {}
+        HeatingRate:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CoolingRate:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CycleInformation: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Thermogravimetric_Analysis:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Dynamic_Mechanical_Analysis:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+    Scattering_And_Diffraction:
+      XRay_Diffraction_and_Scattering:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+    Others:
+      Pulsed_Electro_Acoustic:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Rheometery:
+        RheometerType: {}
+        Description: {}
+        CapillarySize: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Electrometry:
+        Equipment: {}
+        Description: {}
+        data:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+  PROPERTIES:
+    Mechanical:
+      Tensile:
+        TensileModulus:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        TensileStressAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        TensileStressAtYield:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        TensileStrength:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        TensileToughness:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        StrainAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        ElongationAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        ElongationAtYield:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FiberTensileModulus:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FiberTensileStrength:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FiberTensileElongation:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        PoissonsRatio:
+          value: {}
+        Conditions:
+          StrainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          PreLoad:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        StressRelaxation:
+          description: {}
+        LoadingProfile:
+          description: {}
+      Flexural:
+        FlexuralModulus:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FlexuralStressAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FlexuralStressAtYield:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        FlexuralToughness:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Conditions:
+          StrainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          PreLoad:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        LoadingProfile:
+          description: {}
+      Compression:
+        CompressionModulus:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CompressionStressAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CompressionStressAtYield:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CompressiveToughness:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Conditions:
+          StrainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Preload:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        LoadingProfile:
+          description: {}
+      Shear:
+        ShearModulus:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        ShearStressAtBreak:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        ShearStressAtYield:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Conditions:
+          StrainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Preload:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        LoadingProfile:
+          description: {}
+      FractureToughness:
+        EssentialWorkOfFracture:
+          preCrackingProcess: {}
+          strainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          FractureEnergy:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        LinearElastic:
+          sampleShape: {}
+          preCrackingProcess: {}
+          strainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          FractureEnergy:
+            description: {}
+            value:
+              value: {}
+              unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            datafile:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          K-factor: {}
+          profile:
+            description:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        PlasticElastic:
+          sampleShape: {}
+          preCrackingProcess: {}
+          strainRate:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          FractureEnergy:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          J-integral: {}
+          profile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Impact:
+        Notch: {}
+        IZOD_Area:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        IZOD_ImpactEnergy:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        CharpyImpactEnergy:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        ImpactToughness:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Hardness:
+        HardnessTestStandard: {}
+        HardnessScale: {}
+        HardnessValue:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+    Viscoelastic:
+      DynamicProperties:
+        Description: {}
+        MeasurementMode: {}
+        MeasurementMethod: {}
+        DMA_mode:
+          FrequencySweep:
+            condition:
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value:
+                  value: {}
+                  unit: {}
+          TemperatureSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value:
+                  value: {}
+                  unit: {}
+          StrainSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+        MasterCurve:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        DynamicPropertyProfile:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      Creep:
+        Compressive:
+          CompressiveCreepRuptureStrength:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          CompressiveCreepRuptureTime:
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          CompressiveCreepStrain:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        Tensile:
+          TensileCreepRecovery: {}
+          TensileCreepModulus:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          TensileCreepCompliance:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          TensileCreepRuptureStrength:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          TensileCreepRuptureTime:
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          TensileCreepStrain:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        Flexural:
+          FlexuralCreepRuptureStrength:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          FlexuralCreepRuptureTime:
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          FlexuralCreepStrain:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+    Electrical:
+      ElectricConductivity:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      CurrentDensity:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      EnergyDensity:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      SurfaceResistivity:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      VolumeResistivity:
+        description: {}
+        value: {}
+        unit: {}
+        datafile:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      ArcResistance:
+        description: {}
+        value: {}
+        unit: {}
+        datafile:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      Impedance:
+        description: {}
+        value: {}
+        unit: {}
+        datafile:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      ElectricPercolationThreshold:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      DC_DielectricConstant:
+        description: {}
+        value: {}
+        unit: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      AC_DielectricDispersion:
+        Description: {}
+        DielectricDispersionDependence:
+          FrequencyDependence:
+            condition:
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+                data:
+                  headers:
+                    column:
+                      _attributes:
+                        id: {}
+                      _text: {}
+                  rows:
+                    row:
+                      _attributes:
+                        id: {}
+                      column:
+                        _attributes:
+                          id: {}
+                        _text: {}
+          TemperatureDependence:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+                data:
+                  headers:
+                    column:
+                      _attributes:
+                        id: {}
+                      _text: {}
+                  rows:
+                    row:
+                      _attributes:
+                        id: {}
+                      column:
+                        _attributes:
+                          id: {}
+                        _text: {}
+        Dielectric_Real_Permittivity:
+          description: {}
+          value: {}
+          unit: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Dielectric_Loss_Permittivity:
+          description: {}
+          value: {}
+          unit: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Dielectric_Loss_Tangent:
+          description: {}
+          value: {}
+          unit: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      DielectricBreakdownStrength:
+        Condition: {}
+        Profile:
+          value: {}
+          unit: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        WeibullPlot:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        WeibullParameter:
+          description: {}
+          value:
+            value: {}
+            unit: {}
+    Thermal:
+      DSC_Profile:
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      MeasurementMethod: {}
+      Crystallinity:
+        DegreeOfCrystallization:
+          description: {}
+          value: {}
+        GrowthRateOfCrystal:
+          description: {}
+          value:
+            value: {}
+            unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Growth_Rate_Parameter_Of_Avrami_Equation:
+          description: {}
+          value:
+            value: {}
+            unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        Nucleation_Parameter_Of_Avrami_Equation:
+          description: {}
+          value:
+            value: {}
+            unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        HalflifeOfCrystallization:
+          description: {}
+          value:
+            value: {}
+            unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          datafile:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      CrystallizationTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      HeatOfCrystallization:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      HeatOfFusion:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      ThermalDecompositionTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      GlassTransitionTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      LC_PhaseTransitionTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      MeltingTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      SpecificHeatCapacity_Cp:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      SpecificHeatCapacity_Cv:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      ThermalConductivity:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      ThermalDiffusivity:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      BrittleTemperature:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+    Volumetric:
+      WeightLoss:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      InterfacialThickness:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+      Density:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      LinearExpansionCoefficient:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      VolumeExpansionCoefficient:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      SurfaceTension:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      InterfacialTension:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      WaterAbsorption:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      VolumetricShrinkage:
+        description: {}
+        value: {}
+        unit: {}
+        uncertainty:
+          uncertaintytype: {}
+          value: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+    Rheological:
+      RheologicalComplexModulus:
+        RheometerMode:
+          FrequencySweep:
+            condition:
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value: {}
+                unit: {}
+          TemperatureSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value: {}
+                unit: {}
+          StrainSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+        RheologicalStorageModulus:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        RheologicalLossModulus:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        RheologicalLossTangent:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        RheologicalMasterCurve:
+          description: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+      RheologicalViscosity:
+        RheometerMode:
+          FrequencySweep:
+            condition:
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value: {}
+                unit: {}
+          TemperatureSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              strainAmplitude:
+                description: {}
+                value: {}
+                unit: {}
+          StrainSweep:
+            condition:
+              frequency:
+                description: {}
+                value: {}
+                unit: {}
+              temperature:
+                description: {}
+                value: {}
+                unit: {}
+        DynamicViscosity:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+        MeltViscosity:
+          description: {}
+          value: {}
+          unit: {}
+          uncertainty:
+            uncertaintytype: {}
+            value: {}
+          data:
+            headers:
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+            rows:
+              row:
+                _attributes:
+                  id: {}
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+  MICROSTRUCTURE:
+    ImageFile:
+      File:
+        headers:
+          column:
+            _attributes:
+              id: {}
+            _text: {}
+        rows:
+          row:
+            _attributes:
+              id: {}
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+      Description: {}
+      MicroscopyType: {}
+      Type: {}
+      Dimension:
+        width: {}
+        height: {}
+        depth: {}
+      ImagePreProcessing:
+        value: {}
+    Experimental_Sample_Info:
+      SampleSize:
+        value: {}
+        unit: {}
+      SampleThickness:
+        value: {}
+        unit: {}
+  SIMULATION-FEA:
+    FEAModel:
+      SoftwareUsed: {}
+      NumberOfElements:
+        description: {}
+        value: {}
+      MeshType:
+        description: {}
+        value: {}
+      ElementType-Abaqus:
+        description: {}
+        value: {}
+      ElementType-COMSOL:
+        description: {}
+        value: {}
+      ElementType-General:
+        description: {}
+      ModelInputFile:
+        description: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      FEAModel-Abaqus:
+        LoadingType: {}
+        MinFrequency:
+          description: {}
+          value: {}
+        MaxFrequency:
+          description: {}
+          value: {}
+        NumberOfFrequencyIntervals:
+          value: {}
+        ReactionForceComputation: {}
+    BoundaryConditions:
+      BoundaryConditionType: {}
+      MechanicalBoundaryCondition: {}
+      Mechanical_BC-x_direction: {}
+      Mechanical_BC-y_direction: {}
+      Mechanical_BC-z_direction: {}
+    LoadingConditions:
+      Direction: {}
+      Magnitude:
+        description: {}
+        value: {}
+        unit: {}
+      RelevantNodes: {}
+    MicrostructureGeneration:
+      MicrostructureDimension: {}
+      MicrostructureDatafile:
+        description: {}
+        data:
+          headers:
+            column:
+              _attributes:
+                id: {}
+              _text: {}
+          rows:
+            row:
+              _attributes:
+                id: {}
+              column:
+                _attributes:
+                  id: {}
+                _text: {}
+      Scale-nm_per_RVE_length_unit: {}
+      D2D_RVE:
+        Width: {}
+        Height: {}
+      D3D_RVE:
+        Width: {}
+        Length: {}
+        Height: {}
+      MeanNeighborDistance:
+        description: {}
+        value: {}
+        unit: {}
+      Orientation: {}
+  MATERIALPROPERTIES-FEA:
+    Matrix:
+      InputProperties-Mechanical:
+        Tensile:
+          TensileModulus:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+          PoissonsRatio:
+            description: {}
+            value: {}
+            uncertainty:
+              uncertaintytype: {}
+      InputProperties-Viscoelastic:
+        DynamicProperties:
+          MeasurementMode: {}
+          MeasurementMethod: {}
+          DMA_mode:
+            FrequencySweep:
+              condition:
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value:
+                    value: {}
+                    unit: {}
+            TemperatureSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value:
+                    value: {}
+                    unit: {}
+            StrainSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+          StorageModulus:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          LossModulus:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          LossTangent:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+      InputProperties-Electrical:
+        ElectricConductivity:
+          description: {}
+          value: {}
+          unit: {}
+        AC_DielectricDispersion:
+          Dielectric_Real_Permittivity:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Dielectric_Loss_Permittivity:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Dielectric_Loss_Tangent:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        DielectricBreakdownStrength:
+          Condition: {}
+          value: {}
+          unit: {}
+      InputProperties-Rheological:
+        RheologicalComplexModulus:
+          RheometerMode:
+            FrequencySweep:
+              condition:
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value: {}
+                  unit: {}
+            TemperatureSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value: {}
+                  unit: {}
+            StrainSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+          RheologicalStorageModulus:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          RheologicalLossModulus:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          RheologicalLossTangent:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+    Filler:
+      Filler:
+        FillerInputAgglomeration:
+          Non-agglomerateFraction:
+            value: {}
+          NumberOfAgglomeration:
+            value: {}
+          AgglomerateFraction:
+            value: {}
+        InputProperties-Mechanical:
+          Tensile:
+            TensileModulus:
+              description: {}
+              value: {}
+              unit: {}
+              uncertainty:
+                uncertaintytype: {}
+                value: {}
+            PoissonsRatio:
+              value: {}
+        InputProperties-Electrical:
+          ElectricConductivity:
+            description: {}
+            value: {}
+            unit: {}
+          AC_DielectricDispersion:
+            Dielectric_Real_Permittivity:
+              description: {}
+              value: {}
+              unit: {}
+              data:
+                headers:
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+                rows:
+                  row:
+                    _attributes:
+                      id: {}
+                    column:
+                      _attributes:
+                        id: {}
+                      _text: {}
+            Dielectric_Loss_Permittivity:
+              description: {}
+              value: {}
+              unit: {}
+              data:
+                headers:
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+                rows:
+                  row:
+                    _attributes:
+                      id: {}
+                    column:
+                      _attributes:
+                        id: {}
+                      _text: {}
+            Dielectric_Loss_Tangent:
+              description: {}
+              value: {}
+              unit: {}
+              data:
+                headers:
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+                rows:
+                  row:
+                    _attributes:
+                      id: {}
+                    column:
+                      _attributes:
+                        id: {}
+                      _text: {}
+          DielectricBreakdownStrength:
+            Condition: {}
+            value: {}
+            unit: {}
+    NumberOfInterphaseLayers:
+      description: {}
+      value: {}
+    Interphase:
+      InterphaseThickness:
+        value: {}
+        unit: {}
+      InputProperties-Mechanical:
+        Tensile:
+          TensileModulus:
+            description: {}
+            value: {}
+            unit: {}
+            uncertainty:
+              uncertaintytype: {}
+              value: {}
+          PoissonsRatio:
+            description: {}
+            value: {}
+      InputProperties-Viscoelastic:
+        DynamicProperties:
+          ShiftingFactor:
+            description: {}
+            value: {}
+          LeftBroadeningFactor:
+            description: {}
+            value: {}
+          RightBroadeningFactor:
+            description: {}
+            value: {}
+      InputProperties-Electrical:
+        ElectricConductivity:
+          description: {}
+          value: {}
+          unit: {}
+        AC_DielectricDispersion:
+          Dielectric_Real_Permittivity:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Dielectric_Loss_Permittivity:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          Dielectric_Loss_Tangent:
+            description: {}
+            value: {}
+            unit: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+        DielectricBreakdownStrength:
+          Condition: {}
+          value: {}
+          unit: {}
+      InputProperties-Rheological:
+        RheologicalComplexModulus:
+          RheometerMode:
+            FrequencySweep:
+              condition:
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value: {}
+                  unit: {}
+            TemperatureSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                strainAmplitude:
+                  description: {}
+                  value: {}
+                  unit: {}
+            StrainSweep:
+              condition:
+                frequency:
+                  description: {}
+                  value: {}
+                  unit: {}
+                temperature:
+                  description: {}
+                  value: {}
+                  unit: {}
+          RheologicalStorageModulus:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          RheologicalLossModulus:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
+          RheologicalLossTangent:
+            description: {}
+            data:
+              headers:
+                column:
+                  _attributes:
+                    id: {}
+                  _text: {}
+              rows:
+                row:
+                  _attributes:
+                    id: {}
+                  column:
+                    _attributes:
+                      id: {}
+                    _text: {}
